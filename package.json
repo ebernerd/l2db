@@ -1,0 +1,28 @@
+{
+	"name": "love2d-builder",
+	"version": "1.0.0",
+	"description": "A command line utility for building Love2D projects",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"l2db": "node ./dist/index.js"
+	},
+	"repository": {
+		"url": "https://github.com/ebernerd/l2db",
+		"type": "git"
+	},
+	"author": "Eric Bernard",
+	"license": "ISC",
+	"dependencies": {
+		"archiver": "^4.0.1",
+		"fs-extra": "^9.0.1",
+		"yargs": "^15.3.1"
+	},
+	"devDependencies": {
+		"@types/archiver": "^3.1.0",
+		"@types/fs-extra": "^9.0.1",
+		"@types/yargs": "^15.0.5"
+	}
+}
